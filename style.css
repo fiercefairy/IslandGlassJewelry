@@ -1,0 +1,18 @@
+#homeImage img{
+  width: 100%;
+  position: absolute;
+  top: -10px;
+  z-index: -1;
+}
+li a{
+  text-decoration: none;
+  color:white;
+  z-index: 100;
+}
+nav ul{
+  display:flex;
+  justify-content: space-around;
+}
+nav{
+  z-index: 100;
+}
