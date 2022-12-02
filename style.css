@@ -6,13 +6,32 @@
 }
 li a{
   text-decoration: none;
-  color:white;
+  color:#999;
   z-index: 100;
+}
+li a:hover{
+  color:white;
+}
+li a:active{
+  background-color: black;
 }
 nav ul{
   display:flex;
   justify-content: space-around;
+  padding: 15px;
 }
 nav{
   z-index: 100;
+  background-color: rgba(00, 00, 00, .5);
+}
+body{
+  font-family: Open Sans, sans-serif;
+}
+#logo{
+  width: 30%;
+}
+#logoParent{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
