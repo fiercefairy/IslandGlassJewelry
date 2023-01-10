@@ -3,6 +3,7 @@
   position: absolute;
   top: -10px;
   z-index: -1;
+  
 }
 li a{
   text-decoration: none;
@@ -23,15 +24,26 @@ nav ul{
 nav{
   z-index: 100;
   background-color: rgba(00, 00, 00, .5);
+  position: fixed;
+  top:0;
+  width:100%;
 }
 body{
   font-family: Open Sans, sans-serif;
+  position: relative;
 }
 #logo{
   width: 30%;
 }
 #logoParent{
-  display: flex;
-  justify-content: center;
-  padding-top: 100px;
+  position: absolute;
+    top: 128px;
+    text-align: center;
+    width: 100%;
+}
+header{
+  position: relative;
+}
+#homeImage{
+  height: 702px;
 }
